@@ -10,6 +10,8 @@
  * string na segunda console.log()instrução.
  */
 
- console.log('Senac e Ponte');
+ console.log('Senac e Ponte' .toUpperCase());
 
- console.log('    Remove espaços em branco   ');
+ console.log('Senac e Ponte' .toLowerCase());
+
+ console.log('    Remove espaços em branco   '.trim());
