@@ -24,3 +24,18 @@
  * 3 - Se deu certo, vejamos o que acontece se tentarmos reatribuir o valor de uma variável constante.
  *     Cole a seguinte linha na parte de baixo do seu código: entrada = 'Tapioca'
  */
+
+var comidaFavorita = 'pizza';
+var numDePedacos = 8;
+console.log(comidaFavorita);
+console.log(numDePedacos);
+
+let changeMe = true;
+changeMe = false;
+console.log(changeMe)
+
+const entrada = 'Cuscuz';
+console.log(entrada);
+entrada = 'Tapioca'
+
+

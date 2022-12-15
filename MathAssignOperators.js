@@ -11,10 +11,10 @@ let quarterMe = 1152;
 
 // Use as atribuições matemáticas no espaço abaixo:
 
-
-
-
-
+levelUp += 5;
+powerLevel -= 100;
+multiplyMe *= 11;
+quarterMe /= 4;
 
 
 // Estas instruções console.log() abaixo irão ajudá-lo a verificar os valores das variáveis.
