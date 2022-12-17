@@ -15,6 +15,7 @@ if (nivelDeFome >= 9) {
 
 // Igualdade == ou ===
 // Diferença != ou !==
-console.log('maca' === 'laranja')
-console.log(8 === 8)
-console.log(8 != 8)
+console.log('maçã' !== 'laranja')
+console.log('laranja' === 'laranja')
+//console.log(8 !== 8)
+
