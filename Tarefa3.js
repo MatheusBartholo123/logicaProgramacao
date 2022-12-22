@@ -1,43 +1,131 @@
 //1
-let userName = 'Matheus';
+const userName = 'Matheus';
 
 //2
-userName ? console.log('Olá, Matheus!') : ('Olá!');
+userName ? console.log(`Olá, ${userName}`) : console.log('Olá!');
 
 //3
 const userQuestion = 'Eu vou ser programador?';
 
 //4
+const perguntaCompleta = userName ? `${userName} esta perguntando: ${userQuestion}`
+: `Usuario anônimo pergunta: ${userQuestion}`;
+
 console.log(userQuestion);
+console.log (perguntaCompleta);
 
 //5
-let randomNumber = 6;
-console.log (Math.floor(Math.random() * 8));
+let randomNumber = (Math.floor(Math.random() * 8));
+console.log (randomNumber);
 
 //6
-let eightBall ='Os Sinais Apontam Que Sim!';
+let eightBall = '';
 
 //7 //8
-if (randomNumber) {
+// switch (randomNumber) {
+//    case 0: {
+//     eightBall = 'It is certain (É uma certeza).';
+//     break;
+//    }
 
-}else if (eightBall === 'É uma certeza!') {
+//    case 1: {
+//        eightBall = 'It is decidedly so (É decididamente assim.)';
+//        break;
+//    } 
 
-}else if (eightBall === 'É decididamente assim!') {
+//    case 2: {
+//     eightBall = 'Reply hazy try again (Resposta nebulosa, tente de novo)';
+//     break;
+//    }
 
-}else if (eightBall === 'Resposta nebulosa, tente de novo.') {
+//    case 3: {
+//     eightBall = 'Cannot predict now (Não consigo prever agora.)';
+//     break;
+//    }
 
-}else if (eightBall === 'Não consigo prever agora.') {
+//    case 4: {
+//     eightBall = 'Do not count on it (Não conte com isso.)';
+//     break;
+//    }
 
-}else if (eightBall === 'Não conte com isso.') {
+//    case 5: {
+//     eightBall = 'My sources say no (Minhas fontes dizem que não.)';
+//     break;
+//    }
 
-}else if (eightBall === 'Minhas fontes dizem que não.') {
+//    case 6: {
+//     eightBall = 'Outlook not so good (Perspectiva não tão boa)';
+//     break;
+//    }
+    
+//    case 7: {
+//     eightBall = 'Signs point to yes (Os sinais apontam que sim)';
+//     break;
+//    } 
 
-}else if (eightBall === 'Perspectiva não tão boa.') {
+//    default: {
+//          eightBall = 'sei lá, irmão'
+//    }
+// }
 
-}else if (eightBall === 'Os Sinais Apontam Que Sim!') {
+if (randomNumber === 0) {
+    eightBall = 'It is certain (É uma certeza).';
 
-}else 
-console.log ('Isso Não Vai Acontecer.');
+}else if (randomNumber === 1) {
+    eightBall = 'It is decidedly so (É decididamente assim.)';
+
+}else if (randomNumber === 2) {
+    eightBall = 'Reply hazy try again (Resposta nebulosa, tente de novo)';
+
+}else if (randomNumber === 3) {
+    eightBall = 'Cannot predict now (Não consigo prever agora.)';
+
+}else if (randomNumber === 4) {
+    eightBall = 'Do not count on it (Não conte com isso.)';
+
+}else if (randomNumber === 5) {
+    eightBall = 'My sources say no (Minhas fontes dizem que não.)';
+
+}else if (randomNumber === 6) {
+    eightBall = 'Outlook not so good (Perspectiva não tão boa)';
+
+}else if (randomNumber === 7) {
+    eightBall = 'Signs point to yes (Os sinais apontam que sim)';
+
+}else {
+    eightBall = 'Sei la, irmão'
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 console.log (eightBall)
 
