@@ -14,12 +14,12 @@ let fahrenheit = celsius * (9/5) + 32;
 //6
 
 //7
-Math.floor(fahrenheit)
+Math.floor(fahrenheit);
 
 //8
 
 //9
-console.log(`A temperatura ${kelvin} kelvin. A temperatura ${celsius} celsius. A temperatura ${fahrenheit} fahrenheit.`)
+console.log(`A temperatura é ${kelvin} Kelvin. A temperatura é ${celsius} graus Celsius. A temperatura é ${fahrenheit} graus Fahrenheit.`);
 
 
 
