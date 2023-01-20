@@ -8,3 +8,5 @@ const robot = {
 
 console.log (robot.provideInfo());
 
+
+
