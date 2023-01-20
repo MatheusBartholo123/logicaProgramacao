@@ -23,4 +23,6 @@ const robotFactory = (model, mobile) => {
 }
 
 const tinCan = robotFactory ('P-500', true);
+const newRobot = robotFactory ('R2-D2', true);
 tinCan.beep();
+newRobot.beep();
