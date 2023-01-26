@@ -19,3 +19,5 @@ const onlyNumbers = things.filter(thing => {
 });
 
 console.log(onlyNumbers);
+
+
